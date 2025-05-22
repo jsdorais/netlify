@@ -18,12 +18,30 @@
       height: 100vh;
       margin: 0;
       text-align: center;
+      opacity: 0;
+      animation: fadeIn 1s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
     }
 
     img.logo {
       width: 120px;
       height: auto;
+      margin-bottom: 15px;
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      font-weight: 500;
       margin-bottom: 30px;
+      color: #2f5a61;
+    }
+
+    .tagline sup {
+      font-size: 0.6rem;
+      vertical-align: top;
     }
 
     .spinner {
@@ -60,6 +78,7 @@
 </head>
 <body>
   <img class="logo" src="https://21knots.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068UK000007HZlO&operationContext=DELIVERY&contentId=05TUK000009Rd0F&page=0&d=/a/UK000000vITF/q5aC.x.LaMuU7KLJPkVZ9OTk.HgzDYrBIOendk1XU3Q&oid=00D4S000000DKEs&dpt=null&viewId=" alt="21 Knots Logo">
+  <div class="tagline">Let’s CRM<sup>©</sup></div>
   <div class="spinner"></div>
   <div class="redirect-text">Redirecting you to our homepage…</div>
   <div class="fallback-link">
