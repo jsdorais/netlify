@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=https://21knots.com" />
-    <title>Redirecting…</title>
-  </head>
-  <body>
-    <p>Redirecting to <a href="https://21knots.com">21knots.com</a></p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="2.5;url=https://21knots.com">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting to 21 Knots</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #2f5a61;
+      font-family: "Helvetica Neue", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    img.logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 30px;
+    }
+
+    .spinner {
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid #2f5a61;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .redirect-text {
+      font-size: 1rem;
+      margin-top: 10px;
+      color: #2f5a61;
+    }
+
+    .fallback-link {
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+
+    .fallback-link a {
+      color: #2f5a61;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="https://21knots.file.force.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&versionId=068UK000007HZlO&operationContext=DELIVERY&contentId=05TUK000009Rd0F&page=0&d=/a/UK000000vITF/q5aC.x.LaMuU7KLJPkVZ9OTk.HgzDYrBIOendk1XU3Q&oid=00D4S000000DKEs&dpt=null&viewId=" alt="21 Knots Logo">
+  <div class="spinner"></div>
+  <div class="redirect-text">Redirecting you to our homepage…</div>
+  <div class="fallback-link">
+    <a href="https://21knots.com">Click here if you're not redirected</a>
+  </div>
+</body>
 </html>
